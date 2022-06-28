@@ -53,6 +53,47 @@ ul{
    font-weight: bold; 
 }
 
+/*seccion Hero*/
+.hero{
+   background-image: linear-gradient(45deg, #14532d, #22c55e); 
+   padding: 50px 20px;
+   color: #e2e8f0;
+}
+.hero__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+.hero__grid-content h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero__grid-content p{
+    margin-bottom: 40px;
+}
+.hero__grid-content a{
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: backgroun-color 0.3s;
+}
+.hero__grid-content a:hover{
+    background-color: #1e293b;
+}
+.hero-grid-video{
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.hero-grid-video:hover{
+    transform: rotate(5deg);
+}
+
+
 /*Tarjeta*/
 
 .card{
